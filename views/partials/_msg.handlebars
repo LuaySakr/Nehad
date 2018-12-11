@@ -1,0 +1,11 @@
+{{#if success_msg}}
+      <div class="alert alert-success alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>{{success_msg}}</strong>
+  </div>
+{{/if}} {{#if error_msg}}
+      <div class="alert alert-danger alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>{{error_msg}}</strong>
+  </div>
+{{/if}}
